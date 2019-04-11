@@ -195,7 +195,7 @@ func (nc *NewsController) GetCategoriesPosts(c *gin.Context) {
 					},
 				},
 			},
-			Limit:        5,
+			Limit:        1,
 			Offset:       0,
 			Sort:         "-publishedDate",
 			ResourceType: "posts",
