@@ -133,7 +133,7 @@ type FullAuthor struct {
 // Category ...
 type Category struct {
 	ID        bson.ObjectId `bson:"_id" json:"id"`
-	SortOrder uint          `bson:"sort_order" json:"sort_order"`
+	SortOrder uint          `bson:"sortOrder" json:"sort_order"`
 	Name      string        `bson:"name" json:"name"`
 }
 
